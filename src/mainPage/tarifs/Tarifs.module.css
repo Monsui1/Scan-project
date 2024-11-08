@@ -1,0 +1,205 @@
+h2{
+    font-size: 45px;
+    margin: 107px 0 70px 0;
+    font-weight: 900;
+}
+h3{
+    font-size: 30px;
+     font-weight: 500px;
+ }
+ h4{
+    font-size: 20px;
+    font-weight: 500;
+ }
+.tarifs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.beginner{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    border: 2px solid #FFB64F;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+
+}
+.pro{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+
+}
+.business{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .icon{
+    margin-bottom: 20px;
+} */
+.begginer_header{
+    background-color: #FFB64F;
+    padding: 30px 15px 34px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 132px;
+    border-radius: 5px 5px 0 0;
+    
+}
+.pro_header{
+    background-color: #7CE3E1;
+    padding: 30px 10px 34px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 132px;
+}
+.business_header{
+    background-color: #000;
+    padding: 30px 5px 34px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #FFF;
+    height: 132px;
+}
+.tarifs_info{
+margin: 20px 15px 55px 30px;
+}
+.tarif_info{
+display: flex;
+flex-direction: column;
+margin-top: 59px;
+}
+.tarifs_price{
+    height: 50px;
+    position: relative;
+}
+.tarif_auth{
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: #3BA5E0;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 3px 13px;
+    font-size: 14px;
+}
+.price{
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+}
+.price_actually:after{
+    content: ' \20BD';
+}
+.price_prev{
+    color: gray;
+    padding-left: 19px;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.price_prev:after{
+    content: ' \20BD';
+}
+.tarif_lists{
+margin-top: 10px;
+}
+.tarif_list{
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+ul{
+    position: relative;
+}
+.img_check{
+    position: absolute;
+    left: 0;
+}
+.btn{
+    margin: 18px 0;
+    width: 355px;
+  }
+.btn_info{
+    margin: 0 40px 24px 40px;
+    display: flex;
+    justify-content: center;
+}
+.btn_info_auth button{
+    margin: 0 30px 24px 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #D2D2D2;
+    width: 355px;
+}
+
+
+@media (min-width: 350px) and (max-width: 992px){
+    .tarifs{
+        flex-direction: column;
+        margin-bottom: 43px;
+        
+    }
+    .beginner{
+        width: 100%;
+    }
+    .pro{
+        width: 100%;
+    }
+    .business{
+        width: 100%;
+
+    }
+    .begginer_header,
+    .pro_header,
+    .business_header{
+        padding: 30px 1px 34px 24px;
+        position: relative;
+    }
+    .icon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 20%;
+    }
+    .pro_header .icon {
+        right:20px;
+    }
+    .tarifs_info{
+        margin-bottom: 0;
+    }
+    /* .tarif_info{
+        margin-top: 37px;
+    } */
+    .tarif_auth{
+        display: none;
+    }
+    .btn_info_auth {
+        margin:0;
+        padding:20px;
+    }
+    .btn_info_auth button{
+        margin:0;
+    }
+    .btn_info {
+        margin: 35px 0 0 0;
+        padding:20px;
+    }
+    .btn_info button {
+        margin:0;
+    }
+    .price_p{
+        margin-bottom: 25px;
+    }
+}

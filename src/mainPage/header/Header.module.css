@@ -1,0 +1,144 @@
+.header{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.header_nav{
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.logo_header{
+   margin-left: 60px; 
+}
+.login{
+    color: #000;
+    background-color: #7CE3E1;
+    border-radius: 5px;
+    padding: 5px 12px;
+    margin-left: 20px;
+}
+
+.button_login {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .registration{
+    color: gray;
+    font-size: 14px;
+    border-right: 2px solid #7CE3E1;
+    padding:  0 20px;
+  }
+.button_nav{
+    padding: 0 50px;
+    border: none;
+    font: inherit;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.button_registration{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+.profileAuth{
+    display: flex;
+}
+.profileName{
+    color: #000;
+    font-size: 14px;
+}
+.profileLogout{
+    font-size: 10px;
+    color: grey;
+    cursor: pointer;
+}
+.profileIcon{
+    margin-left: 10px;
+}
+.data{
+    font-size: 20px;
+    color: #000;
+}
+.info{
+    font-size: 10px;
+    color: grey;
+    margin-right: 6px;
+}
+.limit{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding: 14px 10px;
+}
+.limit_used{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.data{
+    font-size: 14px;
+    color:#000;
+    font-weight: 800;
+    
+}
+.dataLimit{
+    color:#8AC540;
+    font-weight: 800;
+}
+
+
+.mobileMenuHidden {
+    display: none;
+}
+.menu {
+    display: none;
+}
+
+@media (min-width: 350px) and (max-width: 992px) {
+    .header_nav,
+    .profile{
+        display: none;
+    }
+    .menu {
+        display: flex;
+
+    }
+    .logo_header{
+
+    }
+    .limit{
+        background-color: #D9D9D9;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    .logo_header{
+        margin-left: 0;
+    }
+    .info{
+        font-size: 8px;
+    }
+    .profileAuth{
+        display: none;
+    }
+    .limit_used{
+        display: block;
+    }
+}
+

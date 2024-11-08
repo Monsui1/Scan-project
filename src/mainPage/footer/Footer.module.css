@@ -1,0 +1,28 @@
+footer{
+    background-color: #029491;
+    margin-top: 118px;
+    width: 100%;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_info{
+    margin-right: 45px;
+}
+.footer_info p{
+    font-size: 14px;
+    color: #fff;
+}
+.copyright{
+    margin-top: 21px;
+}
+
+@media (min-width: 350px) and (max-width: 992px){
+    .footer_info{
+        margin-right: 19px;
+        text-align:end;
+    }
+}

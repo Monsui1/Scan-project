@@ -1,0 +1,138 @@
+.resultItem {
+  background: #FFF;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 10px;
+  padding: 19px 30px 100px 30px;
+  position: relative;
+  width: 48%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.resultItem img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardHeader {
+  margin-bottom: 14px;
+}
+
+.date,
+.source {
+  font-family: 'inter';
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+  margin-right: 10px;
+}
+
+.source {
+  text-decoration-line: underline;
+}
+
+.cardTitle {
+  font-family: 'inter';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 24px;
+}
+
+.cardText {
+  margin-top: 20px;
+  font-family: 'inter';
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 25px;
+  word-break:break-all;
+}
+
+.cardFooter {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 35px;
+  left: 30px;
+  right: 30px;
+}
+
+.wordCount,
+.readMore {
+  font-family: 'inter';
+  font-size: 16px;
+  color: gray;
+ 
+  
+}
+
+.readMore {
+  margin-top: 7px;
+  padding: 14px 33px;
+  border-radius: 10px;
+  background-color: #7CE3E1;
+  color: #000000;
+  font-size: 16px;
+}
+
+.readMore:hover {
+  background-color: #74a1db;
+ 
+}
+
+@media (max-width: 1140px) {
+  .resultItem {
+    padding: 19px 24px 100px 24px;
+    width: 100%;
+  }
+  .cardHeader{
+    flex-direction: column;
+  }
+  .date,
+  .source {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .result_list{
+    flex-direction: column;
+    
+  }
+
+  .cardTitle {
+    font-size: 19px;
+    margin-top: 21px;
+    line-height: 23px;
+    
+  }
+
+  .resultItem img {
+    min-height: 158px;
+  }
+
+  .cardText p {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    margin-bottom: 14px;
+  }
+
+  .readMore {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 29px;
+    border-radius: 5px;
+  }
+
+  .wordCount {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+  }
+}
